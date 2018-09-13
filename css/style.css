@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.ui-widget {
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #225378; }
+
+h2 {
+  margin-bottom: 20px;
+  color: #1695a3;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px; }
+  h2 span {
+    font-size: 35px; }
+
+h3 {
+  font-size: 24px; }
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px; }
+  p span {
+    font-size: 14px;
+    font-style: italic; }
+
+header {
+  background: #225378;
+  padding-top: 20px; }
+  header .header-search-box {
+    position: relative; }
+  header .search-icon {
+    position: absolute;
+    right: 3%;
+    top: 10px;
+    font-size: 16px; }
+
+.menubar ul {
+  padding: 0px;
+  margin: 0px; }
+  .menubar ul li {
+    float: left;
+    margin-left: 3px;
+    background: #1695a3;
+    list-style: none;
+    padding: 14px 20px; }
+    .menubar ul li a {
+      color: white; }
+
+footer {
+  background: #225378;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  color: white; }
+  footer .info {
+    font-size: 26px; }
+  footer p {
+    margin: 0; }
+  footer .logo-box {
+    padding-top: 24px; }
+  footer .info-box {
+    margin-bottom: 55px; }
+  footer h2 {
+    font-weight: 300;
+    margin-bottom: 18px; }
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none; }
+
+.button {
+  background: #535353;
+  color: white;
+  padding: 4px 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  width: 38%;
+  float: right;
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+  text-decoration: none; }
+  .button i {
+    font-size: 25px;
+    transform: translateY(15%);
+    text-decoration: none; }
+  .button:hover {
+    background-color: #1695a3;
+    color: white;
+    text-decoration: none; }
+  .button:visited, .button:active, .button:focus {
+    color: white;
+    text-decoration: none; }
+
+.field-box .icons {
+  position: absolute;
+  display: inline-block;
+  background: #eefcfc;
+  padding: 8.7px;
+  right: 9px;
+  top: 2px;
+  color: #333;
+  transform: translateX(-25%);
+  border: none; }
+
+.field-box .error-icon, .field-box .email-error-icon {
+  background-color: #f18289;
+  padding: 9px 10px 9px 10px;
+  right: 7px;
+  top: 1px; }
+
+#select-box {
+  border-radius: 0px; }
+
+#date {
+  border-radius: 0px; }
+
+.dateBox label {
+  font-size: 16px;
+  font-weight: 300; }
+
+.dateBox__input {
+  position: relative; }
+
+.dateBox__icon {
+  position: absolute;
+  right: 10px;
+  top: 25%; }
+
+.max-width-1240 {
+  max-width: 1240px;
+  margin: 0 auto; }
+
+.white {
+  color: white; }
+
+.blueandbold {
+  font-weight: 600;
+  color: #225378; }
+
+.blue {
+  padding-top: 20px;
+  color: #225378; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.margin-top-0 {
+  margin-top: 0px; }
+
+.inline-block {
+  display: inline-block; }
+
+.padding-tb-30 {
+  padding: 30px 0px; }
+
+.logoHeader {
+  background: #eefcfc;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+.main-content {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 100px 0px; }
+  .main-content .apply,
+  .main-content .select-course {
+    border: 2px solid #1695a3;
+    padding: 10px 10px; }
+  .main-content .apply .basic-info {
+    background: #eefcfc; }
+  .main-content .apply .contact-details {
+    background: #eeeeee; }
+  .main-content .basic-info,
+  .main-content .contact-details,
+  .main-content .select-a-course {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    color: #1695a3; }
+  .main-content .select-course .select-a-course {
+    background: #eeeeee; }
+  .main-content hr {
+    width: 46px;
+    border-top: 2px solid #1695a3;
+    transform: rotate(90deg);
+    transform-origin: 0%, 0%; }
+  .main-content .student-info {
+    padding-left: 20px; }
+    .main-content .student-info .field-box {
+      margin-bottom: 20px; }
+      .main-content .student-info .field-box label {
+        font-size: 16px;
+        font-weight: 300; }
+      .main-content .student-info .field-box input[type="text"],
+      .main-content .student-info .field-box input[type="email"] {
+        width: 100%;
+        border-radius: 0px; }
+      .main-content .student-info .field-box input[type="date"] {
+        border-radius: 0px; }
+      .main-content .student-info .field-box .emailLabel {
+        margin-right: 5px; }
+  .main-content .step-info,
+  .main-content .selectcourse-info {
+    border: 1px solid #1695a3;
+    padding: 0px 20px 20px 20px; }
+
+.date input,
+.date .input-group-addon {
+  border-radius: 0px; }
+
+.date .date-label {
+  font-size: 30px; }
+
+.secondPageForm {
+  padding-left: 20px; }
+  .secondPageForm__buttons {
+    display: flex;
+    justify-content: space-between; }
+
+.thirdPageForm {
+  padding-left: 20px; }
+  .thirdPageForm__buttons {
+    display: flex;
+    justify-content: space-between; }
+
+.firstPageWarning {
+  background-color: #f18289;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white; }
+
+.finish {
+  border: 2px solid #f67a00;
+  padding: 10px 10px; }
+
+.color-red-border {
+  background-color: rgba(246, 122, 0, 0.1); }
+
+.mobile-menu,
+.menubar-mobile {
+  display: none; }
+
+@media only screen and (max-width: 800px) {
+  .menubar {
+    display: none; }
+  .menubar-mobile {
+    display: none; }
+    .menubar-mobile ul {
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+      align-items: center; }
+      .menubar-mobile ul li {
+        display: block;
+        width: 50%;
+        margin-left: 3px;
+        background: #1695a3;
+        list-style: none;
+        padding: 14px 20px;
+        margin-bottom: 20px; }
+        .menubar-mobile ul li a {
+          color: white; }
+  .mobile-menu {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px; }
+    .mobile-menu i {
+      color: white;
+      font-size: 26px; }
+  .apply-select-box {
+    display: none; } }

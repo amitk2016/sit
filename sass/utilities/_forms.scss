@@ -1,0 +1,46 @@
+.field-box{
+  .icons{
+    position: absolute;
+    display: inline-block;
+    background:#eefcfc;
+    padding:8.7px;
+    right:9px;
+    top:2px;
+    color: #333;
+    transform: translateX(-25%);
+    border:none;
+  }
+  .ok-icon,.email-ok-icon{
+
+  }
+  .error-icon,.email-error-icon{
+    background-color:$warning-red;
+    padding:9px 10px 9px 10px;
+    right:7px;
+    top:1px;
+  }
+}
+
+#select-box{
+  border-radius: 0px;
+}
+
+#date{
+  border-radius: 0px;
+}
+
+.dateBox{
+
+  label{
+    font-size:16px;
+    font-weight:300;
+  }
+  &__input{
+    position: relative;
+  }
+  &__icon{
+    position:absolute;
+    right:10px;
+    top:25%;
+  }
+}

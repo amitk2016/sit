@@ -1,0 +1,32 @@
+.max-width-1240{
+  @include max-width-1240;
+}
+.white{
+  color:white;
+}
+.blueandbold{
+  font-weight: 600;
+  color:$header-footer-color;
+}
+.blue{
+    padding-top:20px;
+    color:$header-footer-color;
+}
+.margin-bottom-20{
+  margin-bottom:20px;
+}
+.margin-bottom-30{
+  margin-bottom:30px;
+}
+.margin-top-0{
+  margin-top: 0px;
+}
+.info-checkboxes{
+
+}
+.inline-block{
+  display: inline-block;
+}
+.padding-tb-30{
+  padding:30px 0px;
+}

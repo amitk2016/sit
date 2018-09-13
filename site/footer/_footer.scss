@@ -1,0 +1,56 @@
+.site-footer{
+  color:#d3d3d3;
+  padding-top: 80px;
+  padding-bottom:180px;
+  background-color:#333;
+  ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+
+    li{
+      font-size:0.8rem;
+    	font-family: $montserret;
+    	text-transform: uppercase;
+    	letter-spacing:1px;
+    	font-weight:300;
+      margin-bottom: 5px;
+
+      a{
+        text-decoration:none;
+        color:#d3d3d3;
+      }
+    }
+  }
+}
+
+
+.landing {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    video {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    
+      object-fit: cover;
+    }
+    .dim {
+      height: 100%;
+      width: 100%;
+      opacity: 0.6;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background-color: black;
+    }
+
+  }
+.services-sample{
+  position: relative;
+}

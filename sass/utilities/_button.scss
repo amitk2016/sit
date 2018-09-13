@@ -1,0 +1,36 @@
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+.button {
+  background: $dark-grey;
+  color: white;
+  padding: 4px 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  width: 38%;
+  float: right;
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  i {
+    font-size: 25px;
+    transform: translateY(15%);
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: $green;
+    color: white;
+    text-decoration: none;
+  }
+  &:visited,
+  &:active,
+  &:focus {
+    color: white;
+    text-decoration: none;
+  }
+}

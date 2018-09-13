@@ -1,0 +1,167 @@
+// div wrapped around the hamburger menu
+.hamburger-menu-box{
+  display: block;
+  position: absolute;
+  width:100px;
+  height:100px;
+  top:0px;
+  right:40px;
+  z-index:2000;
+  cursor: pointer;
+}
+
+// Hmaburger menu bars
+.menu-toggle{
+	position: relative;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+		&,
+		&::before,
+		&::after{
+			width:2.4rem;
+			height:2px;
+			background-color: white;
+			display: inline-block;
+			transition: all 0.2s;
+		}
+		&::before,&::after{
+			content: "";
+			position: absolute;
+			left:0;
+		}
+		&::before{
+			top:-0.8rem;
+		}
+		&::after{
+			top:0.8rem;
+		}
+
+}
+// classes added after clicked function
+.menu-toggle.rotate-left::before{
+	top:0;
+	transform:rotate(135deg);
+}
+.menuTogglebgTransparent{
+	background-color: transparent;
+}
+
+.menu-toggle.rotate-right::after{
+	top:0;
+	transform:rotate(-135deg);
+}
+
+
+
+// navigation unoredered list
+.menu{
+	height:0%;
+	position: fixed;
+	top:0;
+	right:0;
+	z-index:100;
+	background-color: #333;
+	overflow-y: scroll;
+	opacity:0;
+	width:100%;
+	transition: all .8s ;
+	background-color: #4cbfd7;
+
+  &__list-box{
+    // background-color: green;
+
+    height:40%;
+
+  }
+  &__box-1{
+    // background-color: yellow;
+    height:100%;
+    width:50%;
+    margin:0 auto;
+  }
+  &__box-2{
+    // background-color:blue;
+    height:100%;
+    width:50%;
+    margin:0 auto;
+  }
+
+	&>ul{
+    @include center-x-y;
+		// background-color: red;
+		width:100%;
+    height:60%;
+    padding:2rem;
+    .list-items-box{
+      width:30%;
+      float: left;
+    }
+		li{
+			// border-bottom: 1px solid white;
+			padding: 1rem;
+      font-size:1rem;
+    	font-family: $montserret;
+    	text-transform: uppercase;
+    	letter-spacing:1px;
+    	font-weight:300;
+      margin-bottom: 5px;
+      margin-right: 2rem;
+
+      ul{
+        li{
+
+          &:hover{
+
+          }
+        }
+      }
+		}
+	}
+	ul{
+
+
+
+		li{
+			// list-style: none;
+			// margin-bottom:1rem;
+
+
+			a{
+				&:link,
+				&:visited{
+					display: inline-block;
+					// background-image: linear-gradient(120deg,transparent 0%,transparent 50%,white 50%);
+					// padding:.7rem 2rem;
+					// background-size:230%;
+					font-size:1rem;
+					font-weight: 300;
+					color:white;
+					text-decoration: none;
+					transition: all .4s;
+				}
+				&:hover,
+				&:active{
+					// background-position: 100%;
+					color:#d3d3d3;
+          text-decoration: underline;
+					// transform:translateX(1rem);
+				}
+			}
+		}
+	}
+	.children{
+	display: none;
+	}
+}
+
+.menu-visible{
+	opacity: 1;
+	height:100vh;
+}
+
+
+ul.toggled-on,
+.sub-menu.toggled-on {
+	display: block !important;
+}

@@ -1,0 +1,269 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+        <!--[if lt IE 9]>
+            <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+          <div class="container-fluid">
+            <div class="max-width-1240">
+              <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="header-search-box">
+                        <input type="text" class="form-control"  id="txtSearch"/><span class="glyphicon glyphicon-search search-icon">
+                    </div>
+                </div><!-- Column-4 -->
+                <div class="col-md-8 col-sm-6">
+                  <div class="mobile-menu pull-right">
+                    <i class="fas fa-bars"></i>
+                  </div>
+
+                  <div class="menubar">
+                    <ul class="pull-right">
+                      <li><a href="#">Lorem 1</a></li>
+                      <li><a href="#">Lorem 2</a></li>
+                      <li><a href="#">Lorem 3</a></li>
+                    </ul>
+                  </div><!-- Menubar -->
+                </div><!-- Column-8 -->
+
+              </div><!-- Row -->
+              <div class="menubar-mobile">
+                <ul class="pull-right">
+                  <li><a href="#">Lorem 1</a></li>
+                  <li><a href="#">Lorem 2</a></li>
+                  <li><a href="#">Lorem 3</a></li>
+                </ul>
+              </div><!-- Menubar -->
+            </div>
+          </div><!-- Container-fluid -->
+        </header><!-- Header Finishes here -->
+
+        <section class="text-center logoHeader">
+          <div class="logoHeader__logo">
+            <img src="/img/logo_colour.png" alt="">
+          </div><!-- Logo Box -->
+          <div class="logoHeader__heading">
+            <h1 class="text-uppercase">Enrolment form</h1>
+          </div><!-- Heading Box -->
+        </section><!-- Logo Header Section here -->
+
+
+
+
+        <section class="main-content ">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 apply-select-box col-sm-6 clearfix">
+              <div class="apply" >
+                <h2><span>1 </span>Apply</h2>
+                <div class="basic-info">
+                  <div class="basic-info--content">
+                    <span><img src="img/right-arrow.svg" alt="right arrow pointing to basic info"></span>
+                    <span>basic info</span>
+                  </div>
+                  <label>
+                    <input type="checkbox" class="info-checkboxes">
+                  </label>
+                </div>
+              </div>
+              <hr>
+              <div class="select-course">
+                <h2><span>2 </span>Select a Course</h2>
+                <div class="select-a-course">
+                  <div class="select__content">
+                    <span><img src="img/right-arrow.svg" alt="right arrow pointing to basic info"></span>
+                    <span>contact details</span>
+                  </div>
+                  <input type="checkbox" class="info-checkboxes" id="select-course-check">
+                </div>
+              </div>
+              <hr>
+              <div class="finish">
+                <h2><span>3 </span>Finish </h2>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-6 clearfix">
+              <form class="" action="#" method="post">
+                <div class="student-info form-box clearfix">
+                  <h2 class="text-uppercase margin-top-0 blueandbold margin-bottom-20">Basic info</h2>
+                  <div class="form-group form-inline field-box">
+                    <div class="row">
+                      <div class="col-md-3">
+                      <label for="student-name">Name</label>
+                      </div>
+                      <div class="col-md-9" >
+                        <div class="name-inputBox ">
+                          <input type="text" class="form-control" id="student-name" >
+                          <!-- <i class="fa fa-check icons ok-icon"></i>
+                          <i class="fa fa-times icons error-icon"></i> -->
+                          <span class="glyphicon glyphicon-ok icons ok-icon"></span>
+                          <span class="glyphicon glyphicon-remove icons error-icon"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group form-inline field-box">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <label for="student-email" class="emailLabel">Email</label>
+                      </div>
+                      <div class="col-md-9">
+                        <input type="email" class="form-control" id="student-email" >
+                        <span class="glyphicon glyphicon-ok icons email-ok-icon"></span>
+                        <span class="glyphicon glyphicon-remove icons email-error-icon"></span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                   <div class="form-group dateBox"> <!-- Date input -->
+                     <div class="row">
+                       <div class="col-md-3">
+                         <label class="control-label" for="date">Date of birth</label>
+                       </div>
+                       <div class="col-md-9">
+                         <div class="dateBox__input" data-provide="datepicker" id='datetimepicker1'>
+                           <input class="form-control datepicker" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+                            <i class="far fa-calendar dateBox__icon"></i>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="padding-tb-30">
+                    <p>Have you studied before?</p>
+                    <input type="radio" name="study-before-radio" value="yes" > Yes<br>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur.</span></p>
+                    <input type="radio" name="study-before-radio"
+                    id="study-before-radio" value="no" checked>
+                    <label for="study-before-radio">No </label>
+<br>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur.</span></p>
+                  </div>
+                  <div class="studyselectbox margin-bottom-30">
+                    <p>What have you studied? </p>
+                    <select class="form-control" id="select-box">
+                      <option value="" disabled selected>Choose the course you've studied here</option>
+                      <option>Sample Course 1</option>
+                      <option>Sample Course 2</option>
+                      <option>Sample Course 3</option>
+                      <option>Sample Course 4</option>
+                      <option>Sample Course 5</option>
+                    </select>
+                  </div>
+                  <div class="firstPageWarning">
+                    Please fill all the fields
+                  </div>
+                  <div class="button-box">
+                    <a href="#" class="button basic-info-next-button">Next<i class="fas fa-1x fa-caret-right"></i></a>
+                  </div>
+
+
+
+
+                </div>
+                <div class="secondPageForm">
+                  <h2 class="text-uppercase margin-top-0 blueandbold margin-bottom-20">Select a Course</h2>
+                  <div class="secondPageSelect margin-bottom-30">
+                    <select class="form-control" id="course-select-box">
+                      <option value="" selected disabled>Choose a course</option>
+                      <option>Sample Course 1</option>
+                      <option>Sample Course 2</option>
+                      <option>Sample Course 3</option>
+                      <option>Sample Course 4</option>
+                      <option>Sample Course 5</option>
+                    </select>
+                  </div>
+                  <div class="secondPageForm__buttons">
+                    <a href="#" class="button second-page-previous-button secondPagePrevious"><i class="fas fa-1x fa-caret-left"></i>Previous</a>
+                    <a href="#" class="button second-page-next-button secondPageNext">Next<i class="fas fa-1x fa-caret-right"></i></a>
+                  </div>
+                  <div class="display">
+                    <h2></h2>
+                  </div>
+                </div>
+                <div class="thirdPageForm">
+                  <h2 class="text-uppercase margin-top-0 blueandbold margin-bottom-20">Summary</h2>
+                  <div class="summaryBox margin-bottom-30">
+                      <p>Alison Smith</p>
+                      <br>
+                      <p>Email: alisonsmith@gmail.com</p>
+                      <p>Date of birth: 01 Nov 2000</p>
+                      <p>Study history: Sample Course 4</p>
+                      <p>Selected Course : Sample Course 5</p>
+                  </div>
+                  <div class="thirdPageForm__buttons">
+                    <a href="#" class="button third-page-previous-button thirdPagePrevious"><i class="fas fa-1x fa-caret-left"></i>Previous</a>
+                    <a href="#" class="button third-page-next-button thirdPageNext">Submit<i class="fas fa-1x fa-caret-right"></i></a>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-4 clearfix col-sm-12">
+                <h2 class="info-heading">General Information</h2>
+                <div class="step-info">
+                  <p class="lead blue">Step 1 Basic Info</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eum dolorem nobis culpa quaerat optio, reiciendis sunt atque dolorum numquam ipsum id omnis minima recusandae non repellat! Molestiae quod nemo numquam, explicabo quas harum quidem aliquid earum eos vel sapiente minima architecto. Et, illum reiciendis cum. Cupiditate, debitis expedita fuga.</p>
+                </div>
+                <div class="selectcourse-info">
+                  <p class="lead blue">Step 2 Select a Course</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eum dolorem nobis culpa quaerat optio, reiciendis sunt atque dolorum numquam ipsum id omnis minima recusandae non repellat! Molestiae quod nemo numquam, explicabo quas harum quidem aliquid earum eos vel sapiente minima architecto. Et, illum reiciendis cum. Cupiditate, debitis expedita fuga.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <footer class="container-fluid">
+          <div class="max-width-1240">
+            <div class="row">
+              <div class="col-md-3 logo-box">
+                <img src="/img/logo_white.png" alt="footer-logo">
+              </div>
+              <div class="col-md-9 info-box">
+                <h2 class="text-uppercase white">Contact us</h2>
+                <div class="row">
+                  <div class="col-md-4">
+                    <p>within New zealand</p>
+                    <p class="info">0800 4 0 3337</p>
+                  </div>
+                  <div class="col-md-4">
+                    <p>Email</p>
+                    <p class="info">info@sit.ac.nz</p>
+                  </div>
+                  <div class="col-md-4">
+                    <p>website</p>
+                    <p class="info">www.sit.ac.nz</p>
+                  </div>
+                </div>
+              </div>
+              <p class="text-center">Copyright &copy; 2018 Southern Institute of Technology,ITS</p>
+            </div>
+          </div>
+        </footer>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
